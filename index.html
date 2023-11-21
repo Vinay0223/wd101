@@ -14,6 +14,7 @@
         }
     </style>
 </head>
+
 <body class="flex flex-col items-center justify-center min-h-screen bg-gray-50">
     <div class="container bg-white shadow-xl rounded-sm w-full sm:w-96 py-6 mb-5">
         <form id="user-form" class="w-full px-4 sm:px-8">
@@ -28,6 +29,9 @@
 
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Enter password" required class="border p-2 rounded-md">
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required class="border p-2 rounded-md">
 
                 <div class="flex items-center space-x-2">
                     <input type="checkbox" id="t&c" name="t&c">
@@ -49,6 +53,7 @@
         <th>Name</th>
         <th>Email</th>
         <th>Password</th>
+        <th>Dob</th>
         <th>Accepted terms?</th>
       </tr>
     </thead>
